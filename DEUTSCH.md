@@ -1,3 +1,6 @@
+<!-- Language switch -->
+[🇩🇪 Deutsch](DEUTSCH.md) | [🇺🇸 English](README.md)
+
 # KI-gestützte 3D-Engine für Punktwolken & VR
 
  _Eine neuartige Lösung zur Generierung, Interpretation und Bearbeitung von 3D-Punktwolkendaten für Konstruktion, Fertigung, kreative 3D-Anwendungen, die Gaming-Industrie und VR-Visualisierung – flexibel, skalierbar und intuitiv._
