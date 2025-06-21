@@ -1,7 +1,7 @@
 <!-- Language switch -->
 [🇩🇪 Deutsch](DEUTSCH.md) | [🇺🇸 English](README.md)
 
-## AI-Powered 3D Engine for Point Clouds & VR
+## AI-powered 3D Engine for Point Clouds & VR
 
 _A groundbreaking solution for generating, interpreting, and editing 3D point cloud data for design, manufacturing, creative 3D applications, the gaming industry, and VR visualization – flexible, scalable, and intuitive._
 
