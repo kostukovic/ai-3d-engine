@@ -6,14 +6,17 @@
  _Eine neuartige Lösung zur Generierung, Interpretation und Bearbeitung von 3D-Punktwolkendaten für Konstruktion, Fertigung, kreative 3D-Anwendungen, die Gaming-Industrie und VR-Visualisierung – flexibel, skalierbar und intuitiv._
 
 ## 🚧 Problemstellung
+
 🤖 KI-Systeme tun sich schwer mit der Analyse, Interpretation und Bearbeitung von 3D-Strukturen wie B-Rep, NURBS, Meshes, CSG, SDF, Voxel und Polygonnetzen, da diese klassischen Darstellungsformen oft zu komplex, speicherintensiv oder ineffizient für Deep-Learning-Modelle sind.
 
 ## 🛠️ Lösung
+
 Moderne KI-Technologien werden heute bereits erfolgreich in Bereichen wie Text- und Bilderkennung eingesetzt. 
 
 Mit der nächsten Generation erschließt die KI nun ein besonders vielversprechendes Anwendungsfeld: die Verarbeitung von **Punktwolken**. Diese bieten eine **zukunftsorientierte**, **flexible** und **hochskalierbare** Grundlage für KI-gestützte Analyse, Objekterkennung und Weiterverarbeitung.
 
 ## ✨ Warum sind Punktwolken besser?
+
 Punktwolken sind **leichtgewichtig**, **transparent**, **flexible**, **hochskalierbar** und **besonders KI-freundlich**. Sie ermöglichen eine schnelle, präzise Erkennung geometrischer Merkmale und lassen sich mit modernen Deep-Learning-Architekturen **effizient** verarbeiten.
 
 Im Gegensatz dazu setzen klassische CAD-Systeme wie SolidWorks oder Autodesk weiterhin primär auf B-Rep und NURBS – Strukturen, die für KI deutlich schwieriger zugänglich sind.
@@ -21,6 +24,7 @@ Im Gegensatz dazu setzen klassische CAD-Systeme wie SolidWorks oder Autodesk wei
 Vergleich: Eine technische Zeichnung auf einem A4-Papier wirkt leichtgewichtig – gut lesbar bereits ab etwa 50 KB. Dennoch kann sie komplexe Geometrien enthalten, die bei präziser digitaler Repräsentation für CAD-System – je nach gewählter Option – schnell 100 MB oder mehr erreichen. Daher ist es sinnvoll, sie in eine leichtgewichtige Punktwolkenstruktur umzuwandeln - je nach gewählter Option auf etwa 10 KB reduzierbar.
 
 ## 💡 Mein innovativer Ansatz
+
 Jeder Punkt wird mit präzisen Geometrieinformationen angereichert – z.B. Abständen zu definierten Bezugspunkten, Orientierungen im Raum sowie Verweisen auf relevante Parameter und Variablen –, um eine bessere Interpretation durch die KI zu ermöglichen. Für KI-Systeme ergibt sich daraus ein erheblicher Vorteil bei der Analyse und Weiterverarbeitung.
 
 Die Geometrieinformationen orientieren sich an ähnlichen Konzepten aus B-Rep und NURBS, wodurch eine verlustfreie Übergabe an klassische 3D-Modellierungssysteme wie Parasolid ermöglicht wird.
@@ -28,6 +32,7 @@ Die Geometrieinformationen orientieren sich an ähnlichen Konzepten aus B-Rep un
 Punktwolken sollten als primäre Datenbasis für KI-Anwendungen optimal genutzt werden, während B-Rep und NURBS ergänzend dienen – etwa für den Export, die Toleranzdefinition, den Einsatz in CAD-Kernsystemen wie Parasolid oder die Übergabe an Fertigungsprozesse.
 
 ## 🧱 Klassische 3D-Oberfläche – neu gedacht
+
 Beispielsweise genügt ein Klick, um eine 3D-Oberfläche – wie in einem echten CAD-Modell mit B-Rep/NURBS – in Sekundenschnelle zu aktualisieren.
 
 Nach jeder Änderung wechselt das System automatisch zurück zur Punktwolkenstruktur, um weitere KI-gestützte Bearbeitungsschritte zu ermöglichen. Dabei interpretiert eine KI-basierte Middleware Eingaben über Maus, Tastatur oder Gesten – im Unterschied zu herkömmlichen CAD-Systemen.
@@ -37,6 +42,7 @@ Die KI „versteht“ Punktwolken – der Mensch hingegen kann 3D-Oberflächen b
 Die Kombination von Punktwolken und B-Rep/NURBS in einer Echtzeitverarbeitung ist prinzipiell möglich, jedoch mit erheblich höherem technischem Aufwand verbunden und wird daher zu einem späteren Zeitpunkt angestrebt. Da es sich um grundlegend unterschiedliche Datenmodelle handelt, müssen sie vom System getrennt interpretiert werden. Insbesondere reagiert das System bei B-Rep/NURBS empfindlich auf Modellfehler, die zu Abstürzen führen können – im Gegensatz zu Punktwolken, die auch bei Unvollständigkeit eine stabile Verarbeitung ermöglichen. 
 
 ## 🔧 Funktionalität
+
 Die KI kann 3D-Punktwolkendaten präzise analysieren – zum Beispiel:
 „Das Bauteil enthält drei Gewindebohrungen M16, jeweils 25mm tief, fünf Flachflächen, 15 Kanten, zehn Bohrungen sowie drei Freiformflächen. Eine dünnwandige Struktur ist vorhanden. Weitere Geometrieinformationen wie Toleranzangaben, Werkstoff, Farbe, Zweck, Fertigungsaufwand usw. sind als Metadaten enthalten.“
 
@@ -60,6 +66,7 @@ KI kann auch punktwolkenbasierten Text innerhalb der Punktwolkendarstellung gene
 Zusätzlich versteht die KI auch Gesten – etwa Gebärdensprache – rein auf Basis von Punktwolkendaten (ohne Mesh oder Polygonnetz).
 
 ## 🗂️ Neues Datenformat
+
 Das geplante Format .pbin (sofern verfügbar) wird speziell für KI-gestützte Anwendungen in den Bereichen CAD, digitale Fertigung, 3D-Design und Gaming entwickelt. Im Gegensatz zu klassischen Formaten wie .stl oder .step, die nur begrenzte Informationen enthalten (z.B. keine Toleranzangaben), umfasst .pbin nicht nur geometrische Punktdaten, sondern auch umfangreiche Zusatzinformationen – wie in den folgenden geplanten Inhalten beschrieben: und Zombie
 - Toleranzangaben nach technischen Normen – z.B. zwische Punkten, vollständig eingebettet in die Punktwolke
 - Verschiedene Punktarten – sichtbar, unsichtbar, Mensch, Geist und Zombie definierten
@@ -71,6 +78,7 @@ Das geplante Format .pbin (sofern verfügbar) wird speziell für KI-gestützte
 Ziel: Ein zukunftssicheres, leichtgewichtiges und KI-kompatibles Austauschformat, das in der digitalen Fertigung, im 3D-Studio sowie in der Spieleentwicklung vielseitig einsetzbar ist.
 
 ## 🔬 Proof of Concept
+
 Relevante Referenzprojekte:
 
 - [learning3d – Sammlung moderner 3D-Verfahren mit PyTorch](https://github.com/vinits5/learning3d)
@@ -141,6 +149,7 @@ Experimente werden anhand folgender Frameworks und Technologien durchgeführt:
 - Feature Detection – Spezialisierte Methoden zur Erkennung geometrischer Merkmale (z.B. Bohrung, Nut, Freiformfläche)
 
 ## 🌀 Fazit
+
 Ohne KI wären Punktwolken in der CAD-Welt weitgehend unbrauchbar – denn im Gegensatz zu klassischen CAD-Geometrien lassen sie sich nicht direkt parametrisch steuern.
 
 Anders gesagt: Ohne KI bleiben Punktwolken lediglich „Punkte im Raum“ – ohne Kontext, Struktur oder steuerbare Bedeutung. Erst durch KI erhalten sie eine semantische Tiefe, die sie in der Konstruktion wirklich nutzbar macht.
@@ -148,6 +157,7 @@ Anders gesagt: Ohne KI bleiben Punktwolken lediglich „Punkte im Raum“ – oh
 Mit KI werden Punktwolken zu einem leistungsstarken Werkzeug, das völlig neue Möglichkeiten in Bereichen wie Konstruktion, Analyse, Simulation und Automatisierung eröffnet.
 
 ## 🎯 Ziel
+
 Entwicklung einer leistungsfähigen 3D-Engine, die:
 - interaktive Bearbeitung von Punktwolken per Maus oder Gesten ermöglicht,
 - als KI-gestützte Modellierungsplattform für Punktwolken fungiert,
@@ -161,6 +171,7 @@ Zielgruppe dieses Projekts sind die Maschinenbau- und Fertigungsindustrie, insbe
 Details unter: 🔗 [xprototyp.de/calc2go](https://xprototyp.de/calc2go)
 
 ## 🌐 Weitere Anwendungsbereiche
+
 Diese KI-gestützte 3D-Engine ist nicht nur auf technische Konstruktionen beschränkt, sondern eröffnet vielfältige Einsatzmöglichkeiten in der digitalen Welt – etwa für KI-gesteuerte Interaktionen im Metaverse, realitätsnahe Simulationen oder kreative 3D-Anwendungen.
 
 Von immersiven virtuellen Umgebungen bis hin zu interaktiven Spielewelten: Die Engine kann 3D-Modelle anhand menschlicher Eingaben flexibel verändern oder automatisch generieren.
@@ -173,12 +184,12 @@ Details unter: 🔗 [xprototyp.de/vr](https://xprototyp.de/vr)
 
 | 🧱 Phase | 🏷️ Titel | 📝 Beschreibung | 🔗 Pfad | 📊 Schwierigkeit | ⚖️ Lizenz |
 |--------|---------|----------------|-------------|----------------|-------------|
-| Stage 0️⃣ | Interaktive Punktwolken-Visualisierung | Erste Bearbeitungsschritte mit Maus- oder Gestensteuerung | `/first` | Leicht | BSD-3-Clause |
-| Stage 1️⃣ | Mini 3D-Modellierung | Erstellung und Bearbeitung einfacher Punktwolkenmodelle mit klassischen Mini-Tools | `/mini3d` | Leicht | BSD-3-Clause |
-| Stage 2️⃣ | KI-gestützte 3D-Engine | KI zur Generierung, Interpretation und Bearbeitung von 3D-Punktwolkendaten | `/engine` | Mittel | Apache 2.0 |
-| Stage 3️⃣ | Lite-Webintegration | Webintegration ohne KI-Unterstützung, speziell für CNC-Branche | `/lite` | Leicht | BSD-3-Clause |
-| Stage 4️⃣ | Beta-Webintegration | Webintegration mit KI-Unterstützung, speziell für CNC-Branche | `/beta` | Mittel | BSD-3-Clause |
-| Stage 5️⃣ | CNC-Toolkits | Verschiedene spezialisierte Module für Anwendungen in der CNC-Branche | `/cnctools` | Leicht | BSD-3-Clause |
+| Stage 0️⃣ | Interaktive Punktwolken-Visualisierung | Erste Bearbeitungsschritte mit Maus- oder Gestensteuerung | `/3d-first` | Leicht | BSD-3-Clause |
+| Stage 1️⃣ | Mini 3D-Modellierung | Erstellung und Bearbeitung einfacher Punktwolkenmodelle mit klassischen Mini-Tools | `/mini3d-tools` | Leicht | BSD-3-Clause |
+| Stage 2️⃣ | KI-gestützte 3D-Engine | KI zur Generierung, Interpretation und Bearbeitung von 3D-Punktwolkendaten | `/` | Mittel | Apache 2.0 |
+| Stage 3️⃣ | Lite-Webintegration | Webintegration ohne KI-Unterstützung, speziell für CNC-Branche | `/cnc-lite-web` | Leicht | BSD-3-Clause |
+| Stage 4️⃣ | Beta-Webintegration | Webintegration mit KI-Unterstützung, speziell für CNC-Branche | `/cnc-beta-web` | Mittel | BSD-3-Clause |
+| Stage 5️⃣ | CNC-Toolkits | Verschiedene spezialisierte Module für Anwendungen in der CNC-Branche | `/cnc-toolkits` | Leicht | BSD-3-Clause |
 | Stage 6️⃣ | KI-gestützte 3D-Modellierung (lokal) | Intelligente Bearbeitung von Punktwolkenmodellen | `/3d-app-loc` | Schwer | GPLv3 |
 | Stage 7️⃣ | 2D-zu-3D-Rekonstruktion (lokal) | Automatische Konvertierung technischer Zeichnungen in editierbare 3D-Modelle | `/recog-loc` | Superschwer | GPLv3 |
 | Stage 8️⃣ | 2D-zu-3D-Rekonstruktion (Web) | Vollständig webbasierte Plattform zur KI-gestützten 3D-Modellgenerierung | `/recog-web` | Superschwer | AGPLv3 |
