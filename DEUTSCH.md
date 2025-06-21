@@ -186,7 +186,7 @@ Details unter: 🔗 [xprototyp.de/vr](https://xprototyp.de/vr)
 |--------|---------|----------------|-------------|----------------|-------------|
 | Stage 0️⃣ | Interaktive Punktwolken-Visualisierung | Erste Bearbeitungsschritte mit Maus- oder Gestensteuerung | `/3d-first` | Leicht | BSD-3-Clause |
 | Stage 1️⃣ | Mini 3D-Modellierung | Erstellung und Bearbeitung einfacher Punktwolkenmodelle mit klassischen Mini-Tools | `/mini3d-tools` | Leicht | BSD-3-Clause |
-| Stage 2️⃣ | KI-gestützte 3D-Engine | KI zur Generierung, Interpretation und Bearbeitung von 3D-Punktwolkendaten | `/` | Mittel | Apache 2.0 |
+| Stage 2️⃣ | KI-gestützte 3D-Engine | KI zur Generierung, Interpretation und Bearbeitung von 3D-Punktwolkendaten | `/ai-3d-engine` | Mittel | Apache 2.0 |
 | Stage 3️⃣ | Lite-Webintegration | Webintegration ohne KI-Unterstützung, speziell für CNC-Branche | `/cnc-lite-web` | Leicht | BSD-3-Clause |
 | Stage 4️⃣ | Beta-Webintegration | Webintegration mit KI-Unterstützung, speziell für CNC-Branche | `/cnc-beta-web` | Mittel | BSD-3-Clause |
 | Stage 5️⃣ | CNC-Toolkits | Verschiedene spezialisierte Module für Anwendungen in der CNC-Branche | `/cnc-toolkits` | Leicht | BSD-3-Clause |
