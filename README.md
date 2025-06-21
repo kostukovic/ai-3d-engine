@@ -159,12 +159,12 @@ Details: 🔗 [xprototyp.de/vr](https://xprototyp.de/vr)
 
 | 🧱 Phase | 🏷️ Title | 📝 Description | 🔗 Path | 📊 Difficulty | ⚖️ License |
 |-----------|------------|------------------|-------------|----------------|-------------|
-| Stage 0️ | Interactive Point Cloud Viewer | First editing via mouse or gesture | `/first` | Easy | BSD-3-Clause |
-| Stage 1️ | Mini 3D Modeling | Create & edit simple point cloud models | `/mini3d` | Easy | BSD-3-Clause |
-| Stage 2️ | AI-Powered 3D Engine | Generate, interpret & edit point clouds using AI | `/engine` | Medium | Apache 2.0 |
-| Stage 3️ | Lite Web Integration | Web without AI, for CNC industry | `/lite` | Easy | BSD-3-Clause |
-| Stage 4️ | Beta Web Integration | Web with AI, for CNC industry | `/beta` | Medium | BSD-3-Clause |
-| Stage 5️ | CNC Toolkits | Specialized modules for CNC | `/cnctools` | Easy | BSD-3-Clause |
+| Stage 0️ | Interactive Point Cloud Viewer | First editing via mouse or gesture | `/3d-first` | Easy | BSD-3-Clause |
+| Stage 1️ | Mini 3D Modeling | Create & edit simple point cloud models | `/mini3d-tools` | Easy | BSD-3-Clause |
+| Stage 2️ | AI-Powered 3D Engine | Generate, interpret & edit point clouds using AI | `/` | Medium | Apache 2.0 |
+| Stage 3️ | Lite Web Integration | Web without AI, for CNC industry | `/cnc-lite-web` | Easy | BSD-3-Clause |
+| Stage 4️ | Beta Web Integration | Web with AI, for CNC industry | `/cnc-beta-web` | Medium | BSD-3-Clause |
+| Stage 5️ | CNC Toolkits | Specialized modules for CNC | `/cnc-toolkits` | Easy | BSD-3-Clause |
 | Stage 6️ | Local AI 3D Modeling | Intelligent point cloud editing | `/3d-app-loc` | Hard | GPLv3 |
 | Stage 7️ | Local 2D-to-3D Reconstruction | Convert tech drawings into 3D | `/recog-loc` | Very hard | GPLv3 |
 | Stage 8️ | Web 2D-to-3D Reconstruction | Full web-based AI 3D generation | `/recog-web` | Very hard | AGPLv3 |
@@ -175,11 +175,11 @@ Note: Phases 3 to 5 may be skipped or worked on in parallel.
 ## 📚 Documentation
 Technical details, tutorials, and architecture will be in each subdirectory.
 
-## 🥮 Technologies
-- 🖥️ **Rendering:** Vulkan, WebGPU, WebGL, Qt
-- 🛠️ **Languages:** Python, C, C++, JavaScript, WebAssembly
-- 🤖 **AI:** PyTorch, TensorFlow, CUDA
-- 🧠 **Models:** PointNet, 3D-Transformers, SSL (Self-supervised learning)
+## 🧪 Technologies
+- 🖥️ **Rendering:** Vulkan, WebGPU, WebGL, Qt, etc.
+- 🛠️ **Languages:** Python, C, C++, JavaScript, WebAssembly, etc.
+- 🤖 **AI:** PyTorch, TensorFlow, CUDA, etc.
+- 🧠 **Models:** PointNet, 3D-Transformers, SSL (Self-supervised learning), etc.
 
 ## ⚖️ License
 License varies per roadmap stage (see above).
