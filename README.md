@@ -161,7 +161,7 @@ Details: 🔗 [xprototyp.de/vr](https://xprototyp.de/vr)
 |-----------|------------|------------------|-------------|----------------|-------------|
 | Stage 0️ | Interactive Point Cloud Viewer | First editing via mouse or gesture | `/3d-first` | Easy | BSD-3-Clause |
 | Stage 1️ | Mini 3D Modeling | Create & edit simple point cloud models | `/mini3d-tools` | Easy | BSD-3-Clause |
-| Stage 2️ | AI-Powered 3D Engine | Generate, interpret & edit point clouds using AI | `/` | Medium | Apache 2.0 |
+| Stage 2️ | AI-Powered 3D Engine | Generate, interpret & edit point clouds using AI | `/ai-3d-engine` | Medium | Apache 2.0 |
 | Stage 3️ | Lite Web Integration | Web without AI, for CNC industry | `/cnc-lite-web` | Easy | BSD-3-Clause |
 | Stage 4️ | Beta Web Integration | Web with AI, for CNC industry | `/cnc-beta-web` | Medium | BSD-3-Clause |
 | Stage 5️ | CNC Toolkits | Specialized modules for CNC | `/cnc-toolkits` | Easy | BSD-3-Clause |
