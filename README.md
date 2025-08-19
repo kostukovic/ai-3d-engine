@@ -143,8 +143,6 @@ Develop a powerful 3D engine that:
 
 **Target audience:** mechanical engineering and manufacturing industries, especially CNC.
 
-Details: 🔗 [xprototyp.de/calc2go](https://xprototyp.de/calc2go)
-
 ## 🌐 Other Use Cases
 
 This AI-powered 3D engine isn't limited to technical design. It unlocks many use cases in the digital world – such as AI-based interaction in the Metaverse, realistic simulations, or creative 3D apps.
