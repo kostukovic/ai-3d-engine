@@ -168,8 +168,6 @@ Entwicklung einer leistungsfähigen 3D-Engine, die:
 
 Zielgruppe dieses Projekts sind die Maschinenbau- und Fertigungsindustrie, insbesondere der CNC-Bereich. 
 
-Details unter: 🔗 [xprototyp.de/calc2go](https://xprototyp.de/calc2go)
-
 ## 🌐 Weitere Anwendungsbereiche
 
 Diese KI-gestützte 3D-Engine ist nicht nur auf technische Konstruktionen beschränkt, sondern eröffnet vielfältige Einsatzmöglichkeiten in der digitalen Welt – etwa für KI-gesteuerte Interaktionen im Metaverse, realitätsnahe Simulationen oder kreative 3D-Anwendungen.
@@ -227,3 +225,4 @@ Wenn dir das Projekt gefällt, unterstütze uns durch:
 - 🐞 Melde Bugs oder teile Feedback über GitHub-Issues
 - 📬 Kontaktiere uns bei Interesse an einer Zusammenarbeit
 - ☕ Unterstütze das Projekt mit einer Spende (wird vorbereitet)
+
