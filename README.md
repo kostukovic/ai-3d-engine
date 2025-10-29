@@ -146,13 +146,3 @@ Develop a powerful 3D engine that:
 - allows intuitive input of basic shapes (lines, circles) via gesture control (stereo dual camera), mouse, or keyboard – like CAD software, but consistently point-cloud-based and AI-powered.
 
 **Target audience:** mechanical engineering and manufacturing industries, especially CNC.
-
-## 🌐 Other Use Cases
-
-This AI-powered 3D engine isn't limited to technical design. It unlocks many use cases in the digital world – such as AI-based interaction in the Metaverse, realistic simulations, or creative 3D apps.
-
-From immersive virtual worlds to interactive gaming: The engine can flexibly modify or auto-generate 3D models based on human input.
-
-It will also be used in the upcoming "VR-Gesten" project, using stereo dual camera gesture recognition.
-
-Details: 🔗 [xprototyp.de/vr](https://xprototyp.de/vr)
