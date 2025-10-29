@@ -1,4 +1,6 @@
-Abgesagt, Sorry! 
+
+# ❗️❗️❗️ Abgesagt, Sorry! ❗️❗️❗️
+
 -------
 <!-- Language switch -->
 [🇩🇪 Deutsch](DEUTSCH.md) | [🇺🇸 English](README.md)
@@ -227,5 +229,6 @@ Wenn dir das Projekt gefällt, unterstütze uns durch:
 - 🐞 Melde Bugs oder teile Feedback über GitHub-Issues
 - 📬 Kontaktiere uns bei Interesse an einer Zusammenarbeit
 - ☕ Unterstütze das Projekt mit einer Spende (wird vorbereitet)
+
 
 
